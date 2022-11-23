@@ -1,21 +1,7 @@
-/*========================================
-*CREATED BY: Ryan Womack, 2015-03-07
-*UPDATED: 2017-01-24
-*PROJECT: Pharmacy Demo Data
-*PURPOSE: Introduction to SAS Workshop.
 
-*USES: /home/rwomack0/Pharma_demo/PharmaDemo.xls
-*========================================*/
-
-* access LIBNAME in SAS Studio; 
-* do not need this command on apps.rutgers.edu;
 
 LIBNAME Pharma_D "ignore this part";
 
-* If we had a plain csv (text) file, use
-* DATA mydata
-* INFILE= "PharmaDemo.csv";
-* INPUT list your variable names here;
 
 * Read in external data file;
 * change the DATAFILE path to your own;
